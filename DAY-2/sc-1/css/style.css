@@ -1,0 +1,302 @@
+body{
+    margin: 0;
+}
+/*
+selector {
+
+    key : value;
+    key : value;
+    key : value;
+    key : value;
+    key : value;
+    
+
+}
+*/
+
+
+/* select using tagname */
+
+h1{
+    color: red !important;
+}
+
+
+h1{
+    color: blue;
+}
+
+
+h1{
+    color: orange !important;
+}
+
+
+/* select using class */
+
+.title{
+    color: green;
+}
+
+.more-size{
+    font-size: 30px;
+}
+
+
+#unique-title{
+    color: red;
+}
+
+
+
+
+.bloc-article > p{
+    color: yellow;
+}
+
+
+.bloc-article.readen > p {
+    color: red;
+}
+
+
+.list > li:first-child{
+    color: blue;
+}
+
+.list > li:last-child{
+    color: red;
+}
+
+
+.stripped > li:nth-child(2n){
+    color: red;
+}
+
+.stripped > li:nth-child(2n +1){
+    color: blue;
+}
+
+
+
+.block .para{
+    color: orange;
+}
+
+
+/**********************************************************/
+
+
+
+.content{
+    color: grey;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: sans-serif;
+    text-align: center;
+    /* text-decoration: underline; */
+    text-transform: uppercase;
+    line-height: 56px;
+    letter-spacing: 6px;
+}
+
+
+.custom-font{
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+
+.square{
+    height: 200px ;
+    width: 200px;
+    border: 2px solid black;
+    /*
+    border-color: red;
+    border-style: d; 
+    */ 
+    background-color: #3F51B5;
+}
+
+
+.content-block{
+    border: 2px solid;
+
+    margin: 20px; 
+    /*margin: 20px 30px;
+    margin: 20px 15px 20px 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 15px;*/
+
+    padding: 15px;
+}
+
+
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+
+
+.banner{
+    background-image: url(../imgs/bg.jpg);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: lightgrey;
+    padding: 50px;
+}
+
+.content-banner{
+    background-color: #ffffffb3;
+    padding: 15px;
+    border-radius: 8px;
+    /* margin: 50px; */
+    /* opacity: 0.5; */
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+
+
+.table{
+    width: 100%;
+    border-spacing: 0;
+}
+.table > tbody > tr > td{
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding: 15px 17px;
+}
+.table > tbody > tr:nth-child(2n){ 
+    background-color: grey; 
+} 
+
+.table > tbody > tr:nth-child(2n) > td{ 
+    color: white;
+}
+
+
+
+
+.parent{
+    height: 500px;
+    width: 100%;
+    border: 2px solid black;
+    position: relative;
+}
+
+.child{ 
+
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    position: absolute;
+    right: 69px;
+    bottom: 34px;
+}
+
+
+
+.fixed-button{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: orange;
+    padding: 15px;
+
+}
+
+
+.fixed-button2{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: orange;
+    padding: 15px;
+
+    /* those who have the bigger z-index attribute is the one on the top !! */
+    
+}
+
+
+.list-connected-users{
+    height: 181px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+
+
+.list-connected-users > .user{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://cdn.iconscout.com/icon/free/png-512/avatar-370-456322.png);
+    position: relative;
+    display: inline-block;
+}
+
+
+.list-connected-users > .user > div{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 8px;
+    right: 2px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 50%;
+    border: 5px solid white
+}
+
+.list-connected-users > .user.connected > div{
+    background-color: greenyellow;
+}
+
+
+
+.list-square > div{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    display: inline-block;
+}
+
+
+
+
+.d-flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-arround{
+    justify-content: space-around;
+}
+
+
+.element{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+}
+
+
+.bloc-news{
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 12px;
+}
