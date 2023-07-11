@@ -1,0 +1,11 @@
+.spy{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    left: 0;
+    top: 0;
+}
+
+
+@keyframes
