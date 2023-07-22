@@ -66,3 +66,45 @@ body{
 .col-12{
     width: 100%;
 }
+
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+
+
+/**  responsive !!!  */
+
+
+@media screen and (max-width: 500px) {
+    body{
+        background-color: red;
+    }
+}
+
+
+@media screen and (min-width: 501px) and (max-width: 699px) {
+    body{
+        background-color: orange;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    body{
+        background-color: yellow;
+    }
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    .row{
+        display: block;
+    }
+
+    .row > div{
+        width: 100%;
+    }
+}
