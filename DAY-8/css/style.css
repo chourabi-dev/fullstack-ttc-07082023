@@ -1,0 +1,11 @@
+#app.closed > p > span {
+    display: none;
+}
+
+
+#app.opened > p > span {
+    display: block;
+}
+
+
+
