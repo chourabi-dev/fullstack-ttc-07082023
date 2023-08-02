@@ -19,16 +19,16 @@
                     <div class="card-body">
                         <div class="mb-3">
                             <label for="">Mot clé</label>
-                            <input type="search" class="form-control">
+                            <input type="search" class="form-control" id="key-search">
                           </div>
                           <div class="mb-3">
                             <label for="">Prix</label>
-                            <input type="range" class="form-range">
+                            <input type="range" class="form-range" id="price">
                           </div>
                           <div class="mb-3">
                             <label for="">Categories</label>
-                            <select  class="form-select">
-                                <option value="">- -- --</option>
+                            <select  class="form-select" id="categories-list">
+                                
                             </select>
                           </div>
                                   
@@ -42,12 +42,12 @@
                             <div class="card-body">
                                 <div class="d-flex">
                                     <div style="margin-right: 15px;">
-                                        <button class="btn btn-outline-dark"><i class="fa fa-th" aria-hidden="true"></i></button>
+                                        <button class="btn btn-outline-dark" id="grid-btn"><i class="fa fa-th" aria-hidden="true"></i></button>
 
                                     </div>
 
                                     <div>
-                                        <button class="btn btn-outline-dark"><i class="fa fa-list" aria-hidden="true"></i></button>
+                                        <button class="btn btn-dark" id="list-btn"><i class="fa fa-list" aria-hidden="true"></i></button>
                                         
                                     </div>
                                 </div>
@@ -58,43 +58,7 @@
 
                     <div class="col-12 mt-3">
 
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <div class="card w-100">
-                                    <img src="..." class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Card title</h5>
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                                    </div>
-                                  </div>
-                            </div>
-
-
-                            
-
-                            <div class="col-sm-12">
-                                <div class="card w-100">
-                                    
-                                    <div class="card-body">
-                                        <div class="d-flex">
-                                            <div>
-                                                <img src="..." class="card-img-top" alt="...">
-                                            </div>
-                                            <div>
-                                                <h5 class="card-title">Card title</h5>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                            </div>
-                                        </div>
-                                     
-                                    </div>
-                                  </div>
-                            </div>
-
-
-                            
-                        </div>
+                        <div class="row" id="products-bloc"></div>
 
 
                     </div>
